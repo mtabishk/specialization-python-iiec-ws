@@ -1,0 +1,23 @@
+<html>
+	<head><title>Docker Web Application </title></head>
+	<body>
+	<body bgcolor="#00FFFF">
+	<form action="http://192.168.56.101/cgi-bin/dockerrun.py">
+		<h1>Welcome to the Docker Web Application...</h1>
+		<br />
+		<br />
+		<b>Enter the O.S Name: </b> <input type="text" name="x"/>
+		<br />
+		<br />
+		<b>Select the Docker Image:</b>
+		<select name='i'>	
+		<option>ubuntu:14.04</option>
+			<option>centos:7</option>
+			<option>centos:latest</option>
+		</select>
+		<br />
+		<br />
+		<input type='submit'/>
+	</form>
+	</body>
+</html>
